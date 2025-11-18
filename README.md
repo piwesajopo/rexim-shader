@@ -1,6 +1,8 @@
-# Generate videos from C/CPP 
+# Plasma Shader Animation with CPP 
 
-This gist was downloaded from https://x.com/tsoding/status/1989446257882829223
+This gist was downloaded from https://gist.github.com/rexim/ef86bf70918034a5a57881456c0a0ccf
+
+Created by @tsoding and posted at https://x.com/tsoding/status/1989446257882829223
 
 To download the latest version use this:
 
