@@ -1,9 +1,13 @@
-[ -f vids/checker.mp4 ]  && rm vids/checker.mp4
-[ -f vids/plasma.mp4 ]  && rm vids/plasma.mp4
+if [ -d vids ] ; then
+  [ -f vids/checker.mp4 ]  && rm vids/checker.mp4
+  [ -f vids/plasma.mp4 ]  && rm vids/plasma.mp4
+else
+  mkdir vids
+fi
 
 [ ! -d tmp ] && mkdir tmp
 
-cd tmp 
+cd tmp
 
 gcc -o checker ../checker.c
 ./checker
